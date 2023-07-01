@@ -58,8 +58,8 @@ function findCheapestFlight(flightData) {
             result.push(cheapestFlight);
         }
     });
-
-
-
+    
+    // Sort from highest to lowest price
+    result.sort((a, b) => b.price - a.price);
     return result;
 }
