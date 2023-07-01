@@ -20,7 +20,7 @@ The work put in will achieve the standard objectives:
 ##
 
 ## B. Javascript
-- Install npm packages: node-fetch version 3.3.1
+    $ npm install node-fetch airport-iata-codes --save
 - FETCH method
 - Object array to struct list
 ##
