@@ -4,6 +4,8 @@
 - [Objectives](#a-objectives)
 - [Javascript](#b-javascript)
 - [Machines/Technologies](#c-machinestechnologies)
+- [Assumptions](#d-assumptions)
+##
 
 ## A. Objectives
 The work put in will achieve the standard objectives:
@@ -31,4 +33,11 @@ List of technologies used to achieve project's objectives:
 - amadeus api
 - git
 - GitHub
+##
+
+## D. Assumptions
+1. We assume that the travalay.js list is from highest to lowest.
+2. We assume that the exchange rate is in Euro.
+3. We assume the origin of flight is in Sydney, Australia.
+4. We assume the list gives airport code as destination.
 ##
