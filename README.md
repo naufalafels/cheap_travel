@@ -14,7 +14,7 @@ The work put in will achieve the standard objectives:
 * Using amadeus api to search for flight prices.
 * "Real-world" programming integrated with git and GitHub.
 * Managing files according to actual working folders.
-  * work, playGround, projects, study, tests, etc.
+  * Files: work, playGround, projects, study, tests, etc.
   * These folders should have their actual files.
 ##
 
@@ -33,6 +33,9 @@ List of technologies used to achieve project's objectives:
 - amadeus api
 - git
 - GitHub
+- npm
+  -   node-fetch version 3.3.1
+  -   airport-iata-codes version 1.0.13
 ##
 
 ## D. Assumptions
