@@ -5,6 +5,7 @@
 - [Javascript](#b-javascript)
 - [Machines/Technologies](#c-machinestechnologies)
 - [Assumptions](#d-assumptions)
+- [Regrets](#e-regrets)
 ##
 
 ## A. Objectives
@@ -44,3 +45,8 @@ List of technologies used to achieve project's objectives:
 3. We assume the origin of flight is in Sydney, Australia.
 4. We assume the list gives airport code as destination.
 ##
+
+## E. Regrets
+Unusable API:
+- Unable to use city name as a parameter for travalay.js.
+- Unable to give single major city of the airport.
