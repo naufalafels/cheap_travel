@@ -5,6 +5,7 @@
 - [Javascript](#b-javascript)
 - [Machines/Technologies](#c-machinestechnologies)
 - [Assumptions](#d-assumptions)
+##
 
 ## A. Objectives
 The work put in will achieve the standard objectives:
