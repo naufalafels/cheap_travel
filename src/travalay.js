@@ -1,4 +1,5 @@
 import fetch from 'node-fetch';
+import allData from 'airport-iata-codes';
 
 const clientId = 'JY2j6X3sGxa8v5FP2AZ8YYPwqIkfpRXn';
 const clientSecret = 'g3AGZ2UdxRApulhY';
@@ -48,17 +49,19 @@ function findCheapestFlight(flightData) {
 
     destinations.forEach(destination => {
         if (!cheapestFlight || destination.price.total >= cheapestFlight.price) {
+            let from = allData(destination.origin);
+            let to = allData(destination.destination);
             cheapestFlight = { 
                 price: destination.price.total,
-                from: destination.origin,
-                to: destination.destination,
+                from: from.map(obj => obj.time_zone_id),
+                to: to.map(obj => obj.time_zone_id),
                 departureDate: destination.departureDate,
                 returnDate: destination.returnDate,
             };
             result.push(cheapestFlight);
         }
     });
-    
+
     // Sort from highest to lowest price
     result.sort((a, b) => b.price - a.price);
     return result;
