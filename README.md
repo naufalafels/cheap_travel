@@ -1,4 +1,4 @@
-# Cheap Trvael
+# Cheap Travel
 #### A program that returns cheapest flight prices and dates list from anywhere to everywhere.
 [Travalay](#travalay)
 - [Objectives](#a-objectives)
